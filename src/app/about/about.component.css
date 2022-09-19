@@ -1,0 +1,38 @@
+.about h2{
+    color: #fff !important;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    
+}
+#about{
+    padding-top: 8rem !important;
+}
+
+
+.staricon .line{
+    background-color: #fff;
+    height: 5px;
+    width: 100px;
+    margin-top: 3px;
+}
+
+.staricon .icon{
+    color: #fff;
+}
+
+.about{
+    padding: 4.5rem;
+    background-color: #1abc9c !important;
+}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.ml-auto{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}

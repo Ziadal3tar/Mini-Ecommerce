@@ -1,0 +1,251 @@
+<div class=" "   [style.display]="isClicked?'block':'none'">
+    <div id="mask" class=" opacityy bg-dark opacity-50 height " (click)="close()" ></div>
+    <div class=" d-flex align-items-center justify-content-center">
+
+        <div class="  mrb3 w-75 h-auto  bg-white d-flex align-items-center justify-content-center">
+
+            <div class=" d-flex flex-column ">
+                <i class=" xxx fs-1 fas fa-times" (click)="close()"></i>
+                <h1 class=" fw-bold text-black text-center pt-5">LOG CABEN</h1>
+            <div class="star d-flex align-items-center justify-content-center mb-4">
+                <div class="line rounded-pill"></div>
+                <i class="fas fa-star fs-2 mx-3"></i>
+                <div class="line rounded-pill"></div>
+
+            </div>
+            <div class=" d-flex flex-column align-items-center">
+
+                <img id="img" class=" img-fluid w-50 rounded-3 " [src]="src"  alt="">
+                <p class=" text-center container w-75 my-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </p>
+                <button class=" btn-success btn d-flex flex-row py-3 mb-5 mt-3" (click)="close()"> <i class="fas fa-times me-2 fs-4 "></i> Close Window</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class=" "  [style.display]="isClicked2?'block':'none'">
+    <div class=" opacityy bg-dark opacity-50 " (click)="close()"></div>
+    <div class=" d-flex align-items-center justify-content-center">
+
+        <div class="  mrb3 w-75  bg-white">
+
+            <div class=" d-flex flex-column ">
+                <i class=" xxx fs-1 fas fa-times" (click)="close()"></i>
+                <h1 class=" fw-bold text-black text-center pt-5">TASTY CAKE</h1>
+            <div class="star d-flex align-items-center justify-content-center mb-4">
+                <div class="line rounded-pill"></div>
+                <i class="fas fa-star fs-2 mx-3"></i>
+                <div class="line rounded-pill"></div>
+
+            </div>
+            <div class=" d-flex flex-column align-items-center">
+
+                <img class=" img-fluid w-50 rounded-3 " src="../../assets/img/cake.png" alt="">
+                <p class=" text-center container w-75 my-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </p>
+                <button class=" btn-success btn d-flex flex-row py-3 mb-5 mt-3" (click)="close()"> <i class="fas fa-times me-2 fs-4 "></i> Close Window</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=" "  [style.display]="isClicked3?'block':'none'">
+    <div class=" opacityy bg-dark opacity-50 " (click)="close()"></div>
+    <div class=" d-flex align-items-center justify-content-center">
+
+        <div class="  mrb3 w-75  bg-white">
+
+            <div class=" d-flex flex-column ">
+                <i class=" xxx fs-1 fas fa-times" (click)="close()"></i>
+                <h1 class=" fw-bold text-black text-center pt-5">CIRCUS TENT</h1>
+            <div class="star d-flex align-items-center justify-content-center mb-4">
+                <div class="line rounded-pill"></div>
+                <i class="fas fa-star fs-2 mx-3"></i>
+                <div class="line rounded-pill"></div>
+
+            </div>
+            <div class=" d-flex flex-column align-items-center">
+
+                <img class=" img-fluid w-50 rounded-3 " src="../../assets/img/circus.png" alt="">
+                <p class=" text-center container w-75 my-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </p>
+                <button class=" btn-success btn d-flex flex-row py-3 mb-5 mt-3" (click)="close()"> <i class="fas fa-times me-2 fs-4 "></i> Close Window</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=" "  [style.display]="isClicked4?'block':'none'">
+    <div class=" opacityy bg-dark opacity-50 " (click)="close()"></div>
+    <div class=" d-flex align-items-center justify-content-center">
+
+        <div class="  mrb3 w-75  bg-white">
+
+            <div class=" d-flex flex-column ">
+                <i class=" xxx fs-1 fas fa-times" (click)="close()"></i>
+                <h1 class=" fw-bold text-black text-center pt-5">CONTROLLER</h1>
+            <div class="star d-flex align-items-center justify-content-center mb-4">
+                <div class="line rounded-pill"></div>
+                <i class="fas fa-star fs-2 mx-3"></i>
+                <div class="line rounded-pill"></div>
+
+            </div>
+            <div class=" d-flex flex-column align-items-center">
+
+                <img class=" img-fluid w-50 rounded-3 " src="../../assets/img/game.png" alt="">
+                <p class=" text-center container w-75 my-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </p>
+                <button class=" btn-success btn d-flex flex-row py-3 mb-5 mt-3" (click)="close()"> <i class="fas fa-times me-2 fs-4 "></i> Close Window</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=" "  [style.display]="isClicked5?'block':'none'">
+    <div class=" opacityy bg-dark opacity-50 " (click)="close()"></div>
+    <div class=" d-flex align-items-center justify-content-center">
+
+        <div class="  mrb3 w-75  bg-white">
+
+            <div class=" d-flex flex-column ">
+                <i class=" xxx fs-1 fas fa-times" (click)="close()"></i>
+                <h1 class=" fw-bold text-black text-center pt-5">LOCKED SAFE</h1>
+            <div class="star d-flex align-items-center justify-content-center mb-4">
+                <div class="line rounded-pill"></div>
+                <i class="fas fa-star fs-2 mx-3"></i>
+                <div class="line rounded-pill"></div>
+
+            </div>
+            <div class=" d-flex flex-column align-items-center">
+
+                <img class=" img-fluid w-50 rounded-3 " src="../../assets/img/safe.png" alt="">
+                <p class=" text-center container w-75 my-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </p>
+                <button class=" btn-success btn d-flex flex-row py-3 mb-5 mt-3" (click)="close()"> <i class="fas fa-times me-2 fs-4 "></i> Close Window</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=" "  [style.display]="isClicked6?'block':'none'">
+    <div class=" opacityy bg-dark opacity-50 " (click)="close()"></div>
+    <div class=" d-flex align-items-center justify-content-center">
+
+        <div class="  mrb3 w-75  bg-white">
+
+            <div class=" d-flex flex-column ">
+                <i class=" xxx fs-1 fas fa-times" (click)="close()"></i>
+                <h1 class=" fw-bold text-black text-center pt-5">SUBMARINE</h1>
+            <div class="star d-flex align-items-center justify-content-center mb-4">
+                <div class="line rounded-pill"></div>
+                <i class="fas fa-star fs-2 mx-3"></i>
+                <div class="line rounded-pill"></div>
+
+            </div>
+            <div class=" d-flex flex-column align-items-center">
+
+                <img class=" img-fluid w-50 rounded-3 " src="../../assets/img/submarine.png" alt="">
+                <p class=" text-center container w-75 my-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </p>
+                <button class=" btn-success btn d-flex flex-row py-3 mb-5 mt-3" (click)="close()"> <i class="fas fa-times me-2 fs-4 "></i> Close Window</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="portofolio">
+
+    <h1 class=" fw-bold text-center">PORTOFOLIO</h1>
+    <div class="star d-flex align-items-center justify-content-center mb-4">
+        <div class="line rounded-pill"></div>
+        <i class="fas fa-star fs-2 mx-3"></i>
+        <div class="line rounded-pill"></div>
+
+    </div>
+
+    <div class=" forimg container ">
+        <div class="row d-flex align-items-center justify-content-center mx-5">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 pics " (click)="open('../../assets/img/cabin.png')">
+                <div class="img1 mx-auto position-relative">
+                    <div class=" layer d-flex align-items-center justify-content-center h-100 w-100 position-absolute">
+                        <i class="fas fa-plus text-white text-center"></i>
+                    </div>
+                    <img class=" img-fluid  " src="../../assets/img/cabin.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 pics"(click)="open('../../assets/img/cake.png')" >
+                <div class="img1 mx-auto position-relative">
+                    <div class=" layer d-flex align-items-center justify-content-center h-100 w-100 position-absolute">
+                        <i class="fas fa-plus text-white text-center"></i>
+                    </div>
+                    <img class=" img-fluid  " src="../../assets/img/cake.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 pics" (click)="open('../../assets/img/circus.png')">
+                <div class="img1 mx-auto position-relative">
+                    <div class=" layer d-flex align-items-center justify-content-center h-100 w-100 position-absolute">
+                        <i class="fas fa-plus text-white text-center"></i>
+                    </div>
+                    <img class=" img-fluid  " src="../../assets/img/circus.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 pics" (click)="open('../../assets/img/game.png')">
+                <div class="img1 mx-auto position-relative">
+                    <div class=" layer d-flex align-items-center justify-content-center h-100 w-100 position-absolute">
+                        <i class="fas fa-plus text-white text-center"></i>
+                    </div>
+                    <img class=" img-fluid  " src="../../assets/img/game.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12  mb-5 pics"(click)="open('../../assets/img/safe.png')">
+                <div class="img1 mx-auto position-relative">
+                    <div class=" layer d-flex align-items-center justify-content-center h-100 w-100 position-absolute">
+                        <i class="fas fa-plus text-white text-center"></i>
+                    </div>
+                    <img class=" img-fluid  " src="../../assets/img/safe.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 pics"(click)="open('../../assets/img/submarine.png')">
+                <div class="img1 mx-auto position-relative">
+                    <div class=" layer d-flex align-items-center justify-content-center h-100 w-100 position-absolute">
+                        <i class="fas fa-plus text-white text-center"></i>
+                    </div>
+                    <img class=" img-fluid  " src="../../assets/img/submarine.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

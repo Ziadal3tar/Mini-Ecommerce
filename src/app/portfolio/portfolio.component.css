@@ -1,0 +1,62 @@
+#portofolio{
+    padding-top: 8rem !important;
+}
+h1{
+    color: #2c3e50;
+}
+.star .line{
+    width: 120px;
+    height: 4px;
+    background-color: #2c3e50;
+}
+.star i{
+    color: #2c3e50;
+}
+.pics {
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.img1{
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.layer{
+    top: 0;
+    left: 0;
+    background-color: rgb(26, 188, 156);
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer i {
+    font-size: 5rem;
+}
+.img1:hover .layer{
+    opacity: 0.8;
+}
+.opacityy{
+    z-index: 99999999;
+    width: 100%;
+    position: absolute;
+}
+.mrb3{
+    z-index: 99000999999;
+    width: 100%;
+    top: 50px;
+    position: absolute;
+}
+
+.mrb3 button{
+    background-color: rgb(26, 188, 156);
+    border: 0;
+}
+.xxx{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(26, 188, 156);
+    cursor: pointer;
+}
+.pics{
+    cursor: pointer;
+}
